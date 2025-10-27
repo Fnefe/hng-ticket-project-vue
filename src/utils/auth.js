@@ -1,5 +1,4 @@
 export const login = (email, password) => {
-
   if (email === 'user@test.com' && password === 'password123') {
     const token = 'mock-jwt-token-' + Date.now();
     localStorage.setItem('ticketapp_session', token);
@@ -12,7 +11,6 @@ export const signup = (email, password, name) => {
   if (!email || !password || !name) {
     return { success: false, error: 'All fields are required' };
   }
-  
   
   const token = 'mock-jwt-token-' + Date.now();
   localStorage.setItem('ticketapp_session', token);
