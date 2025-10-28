@@ -27,6 +27,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
+  width: 100%;
 }
 
 .btn {
@@ -70,5 +71,17 @@ body {
 .footer p {
   margin: 0;
   text-align: center;
+}
+
+@media (max-width: 1440px) {
+  .content-wrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    padding: 0 15px;
+  }
 }
 </style>
