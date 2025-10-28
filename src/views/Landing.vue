@@ -57,7 +57,7 @@ export default {
 
 <style scoped>
 .landing-container {
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
 }
 
@@ -146,6 +146,7 @@ export default {
   position: relative;
   padding: 80px 20px;
   background: #f9fafb;
+  color: #000;
 }
 
 .features h2 {
